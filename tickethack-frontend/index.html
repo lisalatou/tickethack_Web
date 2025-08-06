@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>TicketHack</title>
+    <meta name="description" content="Réservez vos billets de train facilement et au meilleur prix avec TicketHack">
+    <meta name="keywords" content="billets train, réservation train, voyage train, SNCF">
+</head>
+<body>
+    
+    <header>
+        <a href="index.html" id="homepageLink"><h1>Tickethack</h1></a>
+        <section id="navigation">
+            <a href="cart.html" id="cartLink">Cart</a>
+            <a href="booking.html" id="bookingLink">Bookings</a>
+        </section>
+    </header>
+    <main id="backgroundAccueil">
+
+        <section id="containerText">
+            <h1>Explore the world effortlessly by train!</h1>
+            <p>Compare, book and enjoy cheap prices for train tickets: your journey starts on Tickethack.</p>
+        </section>
+        
+        <section id="containerCards">
+            <div class="card">
+                <div class="containerInputs" >
+                 
+                    <input class="champSaisie" id="departureInput" type="text" name = "departure" placeholder="Departure" >
+                    <input class="champSaisie" id="arrivalInput"type="text" name = "arrival" placeholder="Arrival">
+                    <input class="champSaisie" id="dateInput" type="date" name="date">
+                </div>
+                <button id="searchButton">Search</button>
+                
+            </div>
+            <div class="card" id="tripResult">
+                <img src="./images/train.png" alt="dessin de train">
+                <p>It's time to book your future trip.</p>    
+            </div>
+        </section>
+
+    </main>
+<script src="script.js"></script>   
+</body>
+</html>

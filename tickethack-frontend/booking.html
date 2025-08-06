@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Bookings</title>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" id="homepageLink"><h1>Tickethack</h1></a>
+        <section id="navigation">
+        <a href="cart.html" id="cartLink">Cart</a>
+        <a href="booking.html" id="bookingLink">Bookings</a>
+        </section>
+    </header>
+
+    <main id="background">
+
+        <div id="emptyBooking">
+            <div id="textEmptyBooking">
+            <p>No booking yet.</p>
+            <p>Why not plan a trip?</p>
+            </div>
+        </div>
+         
+        <div id="fullBooking" style="display: none">
+            <p>My bookings</p>
+            <div id="bookings"></div>
+            <div id="textBooking">
+                <p>Enjoy you travels with Tickethack!</p>
+            </div>
+        </div>
+  
+    </main>
+    <footer></footer>
+    <script src='booking.js'></script>
+</body>
+</html>
