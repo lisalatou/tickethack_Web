@@ -3,10 +3,10 @@
 TicketHack est une application web permettant de rechercher, réserver et gérer des billets de train facilement.
 
 <div align="center">
-  <img src="docs/screenshots/home.jpg" alt="Home" width="400" style="margin: 10px"/>
-  <img src="docs/screenshots/search.jpg" alt="Search" width="400" style="margin: 10px"/>
-  <img src="docs/screenshots/cart.jpg" alt="Cart" width="400" style="margin: 10px"/>
-  <img src="docs/screenshots/bookings.jpg" alt="Bookings" width="400" style="margin: 10px"/>
+  <img src="docs/screenshots/home.png" alt="Home" width="400" style="margin: 10px"/>
+  <img src="docs/screenshots/search.png" alt="Search" width="400" style="margin: 10px"/>
+  <img src="docs/screenshots/cart.png" alt="Cart" width="400" style="margin: 10px"/>
+  <img src="docs/screenshots/bookings.png" alt="Bookings" width="400" style="margin: 10px"/>
 </div>
 
 ## ✨ Fonctionnalités 
